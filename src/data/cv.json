@@ -1,0 +1,150 @@
+{
+    "basics": {
+      "name": "Mateo Serafini",
+      "label": "Desarrollador Frontend",
+      "image": "https://avatars.githubusercontent.com/u/113142530?v=4",
+      "email": "matuserafini@gmail.com",
+      "phone": "+54 9 351 5497 398",
+      "url": "",
+      "summary": "Mi nombre es Mateo Serafini y soy un Técnico en Programación apasionado por la tecnología y la enseñanza. Como desarrollador front-end, tengo experiencia trabajando con React, HTML, CSS, JavaScript, Bootstrap y Git. Me apasiona crear interfaces web atractivas y fáciles de usar que brinden una experiencia de usuario excepcional.",
+      "location": {
+        "address": "",
+        "postalCode": "",
+        "city": "",
+        "countryCode": "",
+        "region": ""
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "mateo serafini",
+          "url": "https://www.linkedin.com/in/mateo-serafini/"
+        },
+        {
+          "network": "GitHub",
+          "username": "Mateoserafini",
+          "url": "https://github.com/Mateoserafini"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "Instituto Técnico La Falda",
+        "position": "Ayudante de cátedra",
+        "url": "",
+        "startDate": "2022-04-01",
+        "endDate": "2022-10-15",
+        "summary": ""
+      }
+    ],
+    "volunteer": [],
+    "education": [
+      {
+        "institution": "Instituto Técnico la Falda",
+        "url": "",
+        "area": "Programación",
+        "studyType": "Técnico",
+        "startDate": "2016-03-01",
+        "endDate": "2022-12-07",
+        "score": "",
+        "courses": []
+      },
+      {
+        "institution": "CoderHouse",
+        "url": "",
+        "area": "Desarrollo Frontend",
+        "studyType": "",
+        "startDate": "2023-07-27",
+        "endDate": "2024-01-30",
+        "score": "",
+        "courses": []
+      },
+      {
+        "institution": "CoderHouse",
+        "url": "",
+        "area": "Desarrollo Back end",
+        "studyType": "",
+        "startDate": "2024-02-15",
+        "endDate": "",
+        "score": "",
+        "courses": []
+      }
+    ],
+    "awards": [],
+    "certificates": [
+      {
+        "name": "Desarrollo web",
+        "date": "2023-07-27",
+        "issuer": "CoderHouse",
+        "url": ""
+      },
+      {
+        "name": "JavaScript",
+        "date": "2023-10-03",
+        "issuer": "CoderHouse",
+        "url": ""
+      },
+      {
+        "name": "React Js",
+        "date": "2023-12-05",
+        "issuer": "CoderHouse",
+        "url": ""
+      },
+      {
+        "name": "Carrera de Desarrollo Frontend React Flex",
+        "date": "2023-07-27",
+        "issuer": "CoderHouse",
+        "url": ""
+      },
+      {
+        "name": "Programacion Backend",
+        "date": "2024-02-15",
+        "issuer": "CoderHouse",
+        "url": ""
+      }
+    ],
+    "publications": [],
+    "skills": [
+      {
+        "name": "HTML",
+        "level": "Avanzado"
+      },
+      {
+        "name": "CSS",
+        "level": "Intermedio-Avanzado"
+      },
+      {
+        "name": "JavaScript",
+        "level": "Intermedio"
+      },
+      {
+        "name": "React",
+        "level": "Intermedio"
+      },
+      {
+      "name": "Node",
+      "level":"Intermedio"
+      },
+      {
+        "name": "Bootstrap",
+        "level": "Intermedio"
+      },
+      {
+        "name": "Git",
+        "level": "Intermedio"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Español",
+        "fluency": "Hablante nativo"
+      },
+      {
+        "language": "Inglés",
+        "fluency": "Intermedio-bajo"
+      }
+    ],
+    "interests": [],
+    "references": [],
+    "projects": []
+  }
