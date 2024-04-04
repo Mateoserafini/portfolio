@@ -20,7 +20,7 @@ const SKILLS_ICONS = {
 
 export const Skills = () => {
   return (
-    <section>
+    <section id="skills">
         <h2>Skills</h2>
     <ul>    
         {skills.map(({ name }) => {

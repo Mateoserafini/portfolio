@@ -3,6 +3,7 @@ import { Hero } from "./componets/Hero/Hero.jsx"
 import { About } from "./componets/About/About.jsx"
 import { Education } from "./componets/Education/Education.jsx"
 import { Skills } from "./componets/Skills/Skills.jsx"
+import { Projects } from "./componets/Projects/Projects.jsx"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <About/>
         <Education/>
         <Skills/>
+        <Projects/>
     </>
   )
 }
