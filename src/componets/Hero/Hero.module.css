@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-right: 32px;
+    max-width: 50%;
+}
+.superTitle{
+    font-size: 2rem;
+}
+
+.label {
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-wrap: balance;
+}
+
+.imgHero{
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 182px;
+    border-radius: 16px;
+    border: 2px #DDDEE5 solid;
+}
+

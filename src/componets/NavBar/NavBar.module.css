@@ -1,0 +1,25 @@
+.containerNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0E1D35;
+    color: #DDDEE5;
+    font-size: 1.2rem;
+}
+.titleNav{
+    padding: 2.4rem;
+    font-size: 1.5rem;
+}
+.ulNavBar{
+    display: flex;
+    flex-direction: row;
+}
+.liNavBar a{
+    display: flex;
+    margin-right: 2rem;
+    transition: all 0.3s ease-in;
+}
+.liNavBar a:hover{
+    color: #5A189A;
+}

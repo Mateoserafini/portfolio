@@ -1,0 +1,22 @@
+.ulHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.liHeader{
+    font-size: 1rem;
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+    flex-direction: row;
+}
+.heroIcons {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 20px;
+    border-radius: 16px;
+}
+
+
+
+
