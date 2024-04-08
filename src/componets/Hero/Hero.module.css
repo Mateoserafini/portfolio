@@ -26,7 +26,7 @@ img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border: 3px solid #000;
+  border: 3px solid #00065a;
   animation: morph 8s ease-in-out infinite;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   transition: all 1s ease-in-out;
