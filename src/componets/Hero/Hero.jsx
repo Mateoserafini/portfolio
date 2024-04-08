@@ -4,8 +4,8 @@ import style from './Hero.module.css'
 
 export const Hero = () => {
   return (
-    <section className={style.sectionHero}>
-      <div className={style.container}>
+    <section className={style.wrapper}>
+      <div className={style.wrapperHero}>
         <div className={style.info}>
           <div>
             <h1 className={style.superTitle}>Hola, soy Mateo.</h1>

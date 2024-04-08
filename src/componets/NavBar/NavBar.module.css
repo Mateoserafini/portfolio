@@ -6,6 +6,7 @@
     background-color: #0E1D35;
     color: #DDDEE5;
     font-size: 1.2rem;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 .titleNav{
     padding: 2.4rem;

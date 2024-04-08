@@ -1,6 +1,7 @@
+import style from './Projects.module.css'
 export const Projects = () => {
     return (
-      <section id="projects">
+      <section id="projects" className={style.wrapper}>
         <div>
           <h2>Proyectos y mas.</h2>
           <p>

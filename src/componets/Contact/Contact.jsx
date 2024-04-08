@@ -17,8 +17,6 @@ export const Contact = () => {
     return (
         <footer className={style.footerHeader}>
             <ul className={style.ulHeader}>
-                <li className={style.liHeader}><img className={style.heroIcons} src={MailIcon} alt="Icono Correo" />{basics.email}</li>
-                <li className={style.liHeader}><img className={style.heroIcons} src={PhoneIcon} alt="Icono Correo" />{basics.phone}</li>
                 {basics.profiles.map(profile => (
                 <li className={style.liHeader}  key={profile.network}>
                     <img className={style.heroIcons} src={SKILLS_ICONS[profile.network]} alt={profile.network} />
@@ -27,6 +25,8 @@ export const Contact = () => {
                     </a>
                 </li>
                 ))}
+                <li className={style.liHeader}><img className={style.heroIcons} src={MailIcon} alt="Icono Correo" /><a href="">{basics.email}</a></li>
+                <li className={style.liHeader}><img className={style.heroIcons} src={PhoneIcon} alt="Icono Correo" /><a href="">{basics.phone}</a></li>
             </ul>
         </footer>
     );

@@ -1,4 +1,8 @@
-.container{
+.wrapper{
+    max-width: 80%;
+    margin: auto;
+}
+.wrapperHero{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -10,7 +14,7 @@
     flex-direction: column;
     gap: 0.5rem;
     padding-right: 32px;
-    max-width: 50%;
+    max-width: 60%;
 }
 .superTitle{
     font-size: 2rem;
@@ -25,8 +29,7 @@
 .imgHero{
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    width: 182px;
+    width: 200px;
     border-radius: 16px;
-    border: 2px #DDDEE5 solid;
 }
 

@@ -6,6 +6,7 @@ import ReactIcon from "../../assets/react.svg";
 import Node from "../../assets/node.svg";
 import Bootstrap from "../../assets/bootstrap.svg";
 import Git from "../../assets/git.svg";
+import style from './Skills.module.css'
 import { skills } from "../../data/cv.json";
 
 const SKILLS_ICONS = {
@@ -20,22 +21,20 @@ const SKILLS_ICONS = {
 
 export const Skills = () => {
   return (
-    <section id="skills">
-        <h2>Skills</h2>
-    <ul>    
-        {skills.map(({ name }) => {
-          const iconName = name === "Next.js" ? "Next" : name;
-          const Icon = SKILLS_ICONS[iconName];
+    <section id="skills" className={style.wrapper}>
+      <h2>Skills</h2>
+      <ul>    
+          {skills.map(({ name }) => {
+            const iconName = name === "Next.js" ? "Next" : name;
+            const Icon = SKILLS_ICONS[iconName];
 
-          return (
-            <li key={name}>
-              {Icon && <img src={Icon} alt={name} />} <span>{name}</span>
-            </li>
-          );
-        })}
-    </ul>
+            return (
+              <li key={name}>
+                {Icon && <img src={Icon} alt={name} />} <span>{name}</span>
+              </li>
+            );
+          })}
+      </ul>
     </section>
-      
-
   );
 };
