@@ -1,26 +1,41 @@
 import React from 'react';
-import { Contact } from '../Contact/Contact.jsx'
 import style from './Hero.module.css'
+import HTML from '../../assets/html.png'
+import CSS from '../../assets/css.png'
+import JAVASCRIPT from '../../assets/javascript.png'
+import BOOTSTRAP from '../../assets/bootstrap.png'
+import GIT from '../../assets/git.png'
+import REACT from '../../assets/react.png'
 
 export const Hero = () => {
   return (
     <section className={style.wrapper}>
-      <div className={style.wrapperHero}>
-        <div className={style.info}>
-          <div>
-            <h1 className={style.superTitle}>Hola, soy Mateo.</h1>
-            <h2 className={style.label}>
-            ¡Hola! 👋 Soy Mateo Serafini, un Técnico en Programación apasionado por la tecnología y 
-            la enseñanza. <br/>Como desarrollador front-end, disfruto creando interfaces web atractivas y 
-            fáciles de usar que brindan una experiencia de usuario excepcional. 💻
-            </h2>
+      <div className={style.content}>
+        <div className={style.mainHero}>
+          <div className={style.imgHero}></div>
+          <div className={style.textHero}>
+            <h1 className={style.heroTittle}>Front end Developer React.</h1>
+            {/* <img src="" alt="" /> */}
+            <p>¡Hola! Soy Mateo Serafini. Tecnico en programacion, apacionado por el desarrollo Front end en Córdoba, Argentina.  </p>
+            <span>
+              <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/mateo-serafini/"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-linkedin"><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M8 11l0 5"></path><path d="M8 8l0 .01"></path><path d="M12 16l0 -5"></path><path d="M16 16v-3a2 2 0 0 0 -4 0"></path></svg></a>
+              <a aria-label="github" rel="noreferrer" target="_blank" href="https://github.com/Mateoserafini"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-github"><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg></a>
+            </span>
           </div>
-          <Contact/>
+          <div className={style.skillsHero}>
+            <h2 className={style.tittleSkills} id="skills">
+              Tecnologias
+            </h2>
+            <span className={style.spanSkills}>
+              <li><img className={style.imgSkills} src={HTML} alt="" /></li>
+              <li><img className={style.imgSkills} src={CSS} alt="" /></li>
+              <li><img className={style.imgSkills} src={JAVASCRIPT} alt="" /></li>
+              <li><img className={style.imgSkills.iconMini } src={BOOTSTRAP} alt="" /></li>
+              <li><img className={style.imgSkills.iconMini } src={GIT} alt="" /></li>
+              <li><img className={style.imgSkills} src={REACT} alt="" /></li>
+            </span>
+          </div>
         </div>
-        <img className={style.imgHero}
-          src='https://avatars.githubusercontent.com/u/113142530?v=4'
-          alt=""
-        />
       </div>
     </section>
   );

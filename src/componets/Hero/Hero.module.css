@@ -2,34 +2,109 @@
     max-width: 80%;
     margin: auto;
 }
-.wrapperHero{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    gap: 1rem;
-}
-.info {
+.content{
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
-    padding-right: 32px;
-    max-width: 60%;
 }
-.superTitle{
+.mainHero{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+img {
+    width: 6rem;
+    height: 6rem;
+    top: 8.7rem;
+    right: 13rem;
+}
+
+.imgHero {
+  background-image: url(https://avatars.githubusercontent.com/u/113142530?v=4);
+  width: 20.5rem;
+  height: 20.5rem;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid #000;
+  animation: morph 8s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  transition: all 1s ease-in-out;
+  margin-top: 1rem;
+}
+@keyframes morph {
+    0% {
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+  
+    50% {
+      border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+  
+    100% {
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+  }
+/* .imgHero{
+
+    -webkit-animation: morph 8s ease-in-out infinite;
+    animation: morph 8s ease-in-out infinite;
+    background-image: url(https://avatars.githubusercontent.com/u/113142530?v=4);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #2d2e32;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    height: 35rem;
+    position: relative;
+    transition: all 1s ease-in-out;
+    width: 35rem;
+
+} */
+.textHero{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50rem;
+    margin: auto;
+    gap: 1rem;
+}
+.heroTittle{
+    display: flex;
+    font-size: 4rem;
+    margin: 0;
+}
+.textHero p{
+    font-size: 1.4rem;
+    margin: 0;
+}
+.textHero span{
+    margin: 0;
+}
+.textHero span a{
+    margin: auto;
+    color: #2a385b;
+}
+.skillsHero{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.tittleSkills{
     font-size: 2rem;
 }
-
-.label {
-    font-weight: 500;
-    font-size: 1.1rem;
-    text-wrap: balance;
+.spanSkills{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
 }
-
-.imgHero{
-    aspect-ratio: 1 / 1;
+.imgSkills{
+    max-width: 70px;
+    max-height: 70px;
     object-fit: cover;
-    width: 200px;
-    border-radius: 16px;
+    border-radius: 10px;
 }
+
 

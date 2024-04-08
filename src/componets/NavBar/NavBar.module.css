@@ -3,13 +3,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #0E1D35;
+    background-color: #2a385b;
     color: #DDDEE5;
     font-size: 1.2rem;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 .titleNav{
-    padding: 2.4rem;
+    padding: 2rem;
     font-size: 1.5rem;
 }
 .ulNavBar{
@@ -19,8 +19,9 @@
 .liNavBar a{
     display: flex;
     margin-right: 2rem;
-    transition: all 0.3s ease-in;
+    font-size: 1.1rem;
+    transition: all 0.2s ease-in;
 }
 .liNavBar a:hover{
-    color: #5A189A;
+    color: #94b0f7;
 }
