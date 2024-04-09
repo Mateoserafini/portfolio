@@ -1,0 +1,24 @@
+.wrapper{
+    background-color: #2a385b;
+    color: #EDEDE7;
+}
+.contentFooter{
+    max-width: 80%;
+    margin: auto;
+}
+.infoFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.copyrightFooter{
+    font-size: 1.2em;
+}
+.copyrightFooter p{
+    margin: 0;
+}
+.redesFooter{
+
+}
