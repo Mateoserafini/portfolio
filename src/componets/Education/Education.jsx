@@ -1,3 +1,4 @@
+import React from 'react';
 import { EducationCard } from "../EducationCard/EducationCard"
 import style from './Education.module.css'
 export const Education = () => {
