@@ -5,8 +5,10 @@ export const Education = () => {
     return (
     <section  id="education" className={style.wrapper}>
       <div className={style.content}>
-        <h2 className={style.tittleEducation}>Educacíon</h2>
+        <div className={style.contentEducation}>
+          <h2 className={style.tittleEducation}>Educacíon</h2>
           <EducationCard/>
+        </div>
       </div>
     </section>
   )

@@ -1,8 +1,9 @@
 .wrapper{
-    max-width: 80%;
-    margin: auto;
+    background-color: #EDEDE7;
 }
 .content{
+    width: 80%;
+    margin: auto;
     display: flex;
     flex-direction: column;
 }
@@ -27,12 +28,12 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   border: 3px solid #00065a;
-  animation: morph 8s ease-in-out infinite;
+  animation: formImg 8s ease-in-out infinite;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   transition: all 1s ease-in-out;
   margin-top: 1rem;
 }
-@keyframes morph {
+@keyframes formImg {
     0% {
       border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     }
@@ -45,22 +46,7 @@ img {
       border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     }
   }
-/* .imgHero{
 
-    -webkit-animation: morph 8s ease-in-out infinite;
-    animation: morph 8s ease-in-out infinite;
-    background-image: url(https://avatars.githubusercontent.com/u/113142530?v=4);
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 3px solid #2d2e32;
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-    height: 35rem;
-    position: relative;
-    transition: all 1s ease-in-out;
-    width: 35rem;
-
-} */
 .textHero{
     display: flex;
     flex-direction: column;
@@ -84,27 +70,6 @@ img {
 .textHero span a{
     margin: auto;
     color: #2a385b;
-}
-.skillsHero{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-.tittleSkills{
-    font-size: 2rem;
-}
-.spanSkills{
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
-}
-.imgSkills{
-    max-width: 70px;
-    max-height: 70px;
-    object-fit: cover;
-    border-radius: 10px;
 }
 
 

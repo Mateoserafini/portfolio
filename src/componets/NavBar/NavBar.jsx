@@ -10,7 +10,7 @@ export const NavBar = () => {
         </a>
           <ul className={style.ulNavBar}>
             <li className={style.liNavBar} >
-              <a href="#skills">Skills</a>
+              <a href="#skills">Tecnologias</a>
             </li>
             <li className={style.liNavBar} >
               <a href="#education">Educacíon</a>
