@@ -1,40 +1,32 @@
-import React from "react";
-import HTML from "../../assets/html.svg";
-import CSS from "../../assets/css.svg";
-import JavaScript from "../../assets/js.svg";
-import ReactIcon from "../../assets/react.svg";
-import Node from "../../assets/node.svg";
-import Bootstrap from "../../assets/bootstrap.svg";
-import Git from "../../assets/git.svg";
+import React from 'react';
 import style from './Skills.module.css'
-import { skills } from "../../data/cv.json";
-
-const SKILLS_ICONS = {
-    HTML: HTML,
-    CSS: CSS,
-    JavaScript: JavaScript,
-    React: ReactIcon,
-    Node: Node,
-    Bootstrap: Bootstrap,
-    Git: Git
-};
+import HTML from '../../assets/html.png'
+import CSS from '../../assets/css.png'
+import JAVASCRIPT from '../../assets/javascript.png'
+import BOOTSTRAP from '../../assets/bootstrap.png'
+import GIT from '../../assets/git.png'
+import REACT from '../../assets/react.png'
 
 export const Skills = () => {
   return (
-    <section id="skills" className={style.wrapper}>
-      <h2>Skills</h2>
-      <ul>    
-          {skills.map(({ name }) => {
-            const iconName = name === "Next.js" ? "Next" : name;
-            const Icon = SKILLS_ICONS[iconName];
-
-            return (
-              <li key={name}>
-                {Icon && <img src={Icon} alt={name} />} <span>{name}</span>
-              </li>
-            );
-          })}
-      </ul>
+    <section className={style.wrapper}>
+      <div className={style.content}>
+        <div className={style.mainHero}>
+          <div className={style.skillsHero}>
+            <h2 className={style.tittleSkills} id="skills">
+              Tecnologias
+            </h2>
+            <span className={style.spanSkills}>
+              <li><img className={style.imgSkills} src={HTML} alt="" /></li>
+              <li><img className={style.imgSkills} src={CSS} alt="" /></li>
+              <li><img className={style.imgSkills} src={JAVASCRIPT} alt="" /></li>
+              <li><img className={style.iconMini } src={BOOTSTRAP} alt="" /></li>
+              <li><img className={style.iconMini } src={GIT} alt="" /></li>
+              <li><img className={style.imgSkills} src={REACT} alt="" /></li>
+            </span>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

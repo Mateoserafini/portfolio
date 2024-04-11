@@ -1,4 +1,68 @@
 .wrapper{
-    max-width: 80%;
+    background-color: #EFEFEA;
+}
+.content{
+    width: 80%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+}
+.mainHero{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.textHero span{
+    margin: 0;
+}
+.skillsHero{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.tittleSkills{
+    font-size: 2rem;
+}
+.spanSkills{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.imgSkills{
+    max-width: 70px;
+    max-height: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@media (max-width: 880px){ 
+    .content{
+        width: 90%;
+    }
+}
+@media (max-width: 680px){ 
+    .content{
+        width: 95%;
+    }
+    .imgSkills{
+        max-width: 55px;
+        max-height: 55px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .iconMini{
+        max-width: 67px;
+        max-height: 67px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 480px){ 
+    .content{
+        width: 95%;
+    }
 }

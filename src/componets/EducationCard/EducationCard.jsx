@@ -1,9 +1,10 @@
 import React from 'react';
+import style from './EducationCard.module.css'
 import { education } from '../../data/cv.json';
 
 export const EducationCard = () => {
   return (
-    <ul>
+    <span className={style.contentEducationCard}>
       {education.map(({ institution, startDate, endDate, area }, index) => {
         const startYear = new Date(startDate).getFullYear();
         let endYear = endDate !== "" ? new Date(endDate).getFullYear() : 'Actual';
@@ -11,24 +12,20 @@ export const EducationCard = () => {
         const years = `${startYear} - ${endYear}`;
 
         return (
-          <li key={index}>
-            <article>
-              <header>
-                <div>
+          <li key={index} className={style.cardEducation}>
+            <div className={style.contentCard}>
+              <header className={style.headerCard}>
                   <h3>{institution}</h3>
-                </div>
-
-                <time>{years}</time>
+                  <time>{years}</time>
               </header>
-
-              <footer>
+              <footer className={style.footerCard}>
                 <p>{area}</p>
               </footer>
-            </article>
+            </div>
           </li>
         );
       })}
-    </ul>
+    </span>
   );
 };
 

@@ -1,23 +1,24 @@
 .wrapper{
-    background-color: #EDEDE7;
+    background-color: #2a385b;
+    color: #EDEDE7;
 }
 .content{
     width: 80%;
     margin: auto;
+}
+.infoFooter{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 300px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 0 3rem 0;
 }
-.contentEducation{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.copyrightFooter{
+    font-size: 1.2em;
 }
-.tittleEducation{
-    font-size: 2rem;
+.copyrightFooter p{
+    margin: 0;
 }
-
 
 @media (max-width: 880px){ 
     .content{

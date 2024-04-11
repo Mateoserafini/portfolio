@@ -1,35 +1,115 @@
 .wrapper{
-    max-width: 80%;
-    margin: auto;
+  background-color: #EDEDE7;
 }
-.wrapperHero{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    gap: 1rem;
+.content{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.info {
+.mainHero{
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+}
+img {
+    width: 6rem;
+    height: 6rem;
+    top: 8.7rem;
+    right: 13rem;
+}
+
+.imgHero {
+  background-image: url(https://avatars.githubusercontent.com/u/113142530?v=4);
+  width: 20.5rem;
+  height: 20.5rem;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid #00065a;
+  animation: formImg 8s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  transition: all 1s ease-in-out;
+  margin-top: 1rem;
+}
+@keyframes formImg {
+    0% {
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+  
+    50% {
+      border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+  
+    100% {
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+  }
+
+.textHero{
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
-    padding-right: 32px;
-    max-width: 60%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    gap: 1rem;
 }
-.superTitle{
-    font-size: 2rem;
+.heroTittle{
+    display: flex;
+    font-size: 4rem;
+    margin: 0;
+}
+.textHero p{
+    font-size: 1.4rem;
+    margin: 0;
+}
+.textHero span{
+    margin: 0;
+}
+.textHero span a{
+    margin: auto;
+    color: #2a385b;
 }
 
-.label {
-    font-weight: 500;
-    font-size: 1.1rem;
-    text-wrap: balance;
+@media (max-width: 880px){ 
+  .content{
+      width: 90%;
+  }
+  .textHero p{
+    width: 80%;
+    margin: auto;
+    font-size: 1.2rem;
+  }
 }
+@media (max-width: 680px){ 
+  .content{
+      width: 95%;
+  }
+  .textHero{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 
-.imgHero{
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    width: 200px;
-    border-radius: 16px;
+
 }
+.heroTittle{
+    display: flex;
+    font-size: 4rem;
+    margin: 0;
+}
+.textHero p{
+    font-size: 1rem;
+}
+}
+@media (max-width: 480px){ 
+  .content{
+      width: 95%;
+  }
+}
+  
+
 

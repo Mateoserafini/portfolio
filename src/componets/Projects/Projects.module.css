@@ -1,4 +1,27 @@
 .wrapper{
-    max-width: 80%;
+    background-color: #EFEFEA;
+}
+.content{
+    width: 80%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+@media (max-width: 880px){ 
+    .content{
+        width: 90%;
+    }
+}
+@media (max-width: 680px){ 
+    .content{
+        width: 95%;
+    }
+}
+@media (max-width: 480px){ 
+    .content{
+        width: 95%;
+    }
 }
