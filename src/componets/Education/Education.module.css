@@ -19,3 +19,18 @@
 }
 
 
+@media (max-width: 880px){ 
+    .content{
+        width: 90%;
+    }
+}
+@media (max-width: 680px){ 
+    .content{
+        width: 95%;
+    }
+}
+@media (max-width: 480px){ 
+    .content{
+        width: 95%;
+    }
+}

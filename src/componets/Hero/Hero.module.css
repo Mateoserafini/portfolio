@@ -1,16 +1,18 @@
 .wrapper{
-    background-color: #EDEDE7;
+  background-color: #EDEDE7;
 }
 .content{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .mainHero{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
 }
 img {
     width: 6rem;
@@ -51,7 +53,7 @@ img {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 50rem;
+    justify-content: center;
     margin: auto;
     gap: 1rem;
 }
@@ -71,5 +73,43 @@ img {
     margin: auto;
     color: #2a385b;
 }
+
+@media (max-width: 880px){ 
+  .content{
+      width: 90%;
+  }
+  .textHero p{
+    width: 80%;
+    margin: auto;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 680px){ 
+  .content{
+      width: 95%;
+  }
+  .textHero{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+
+}
+.heroTittle{
+    display: flex;
+    font-size: 4rem;
+    margin: 0;
+}
+.textHero p{
+    font-size: 1rem;
+}
+}
+@media (max-width: 480px){ 
+  .content{
+      width: 95%;
+  }
+}
+  
 
 

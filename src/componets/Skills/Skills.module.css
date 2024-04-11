@@ -29,9 +29,8 @@
 .spanSkills{
     display: flex;
     flex-direction: row;
-    gap: 2rem;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 .imgSkills{
     max-width: 70px;
@@ -40,4 +39,30 @@
     border-radius: 10px;
 }
 
-
+@media (max-width: 880px){ 
+    .content{
+        width: 90%;
+    }
+}
+@media (max-width: 680px){ 
+    .content{
+        width: 95%;
+    }
+    .imgSkills{
+        max-width: 55px;
+        max-height: 55px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .iconMini{
+        max-width: 67px;
+        max-height: 67px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 480px){ 
+    .content{
+        width: 95%;
+    }
+}

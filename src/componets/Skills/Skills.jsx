@@ -20,8 +20,8 @@ export const Skills = () => {
               <li><img className={style.imgSkills} src={HTML} alt="" /></li>
               <li><img className={style.imgSkills} src={CSS} alt="" /></li>
               <li><img className={style.imgSkills} src={JAVASCRIPT} alt="" /></li>
-              <li><img className={style.imgSkills.iconMini } src={BOOTSTRAP} alt="" /></li>
-              <li><img className={style.imgSkills.iconMini } src={GIT} alt="" /></li>
+              <li><img className={style.iconMini } src={BOOTSTRAP} alt="" /></li>
+              <li><img className={style.iconMini } src={GIT} alt="" /></li>
               <li><img className={style.imgSkills} src={REACT} alt="" /></li>
             </span>
           </div>

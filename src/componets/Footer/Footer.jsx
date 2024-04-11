@@ -4,7 +4,7 @@ export const Footer = () => {
     return (
 
       <section className={style.wrapper}>
-        <div className={style.contentFooter}>
+        <div className={style.content}>
             <div className={style.infoFooter}>
                 <div className={style.copyrightFooter}>
                     <p>©Todos los derechos reservados</p>

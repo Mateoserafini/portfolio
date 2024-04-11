@@ -2,8 +2,8 @@
     background-color: #2a385b;
     color: #EDEDE7;
 }
-.contentFooter{
-    max-width: 80%;
+.content{
+    width: 80%;
     margin: auto;
 }
 .infoFooter{
@@ -11,7 +11,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 3rem;
+    padding: 3rem 0 3rem 0;
 }
 .copyrightFooter{
     font-size: 1.2em;
@@ -19,6 +19,19 @@
 .copyrightFooter p{
     margin: 0;
 }
-.redesFooter{
 
+@media (max-width: 880px){ 
+    .content{
+        width: 90%;
+    }
+}
+@media (max-width: 680px){ 
+    .content{
+        width: 95%;
+    }
+}
+@media (max-width: 480px){ 
+    .content{
+        width: 95%;
+    }
 }

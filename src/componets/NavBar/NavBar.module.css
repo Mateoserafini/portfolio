@@ -25,3 +25,47 @@
 .liNavBar a:hover{
     color: #94b0f7;
 }
+.liNavBarMovile a{
+    display: none;
+}
+
+.contentMobileNavBar {
+    height: 100%;
+    width: 100%; 
+    background-color: #2a385bdc;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow: auto; 
+    transition: all 0.3s ease 0s;
+}
+.mobileNavBar{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 30%;
+    height:100% ;
+
+}
+
+@media (max-width: 750px) {
+    .liNavBar{
+        display: none;
+    }
+    .liNavBarMovile a {
+        display: flex; /* Muestra el elemento cuando el ancho de la pantalla es menor a 750px */
+        margin-right: 2rem;
+        font-size: 1.1rem;
+        transition: all 0.2s ease-in;
+    }
+    .liNavBarMovile a:hover{
+        color: #94b0f7;
+    }
+}
+
+
+

@@ -15,23 +15,17 @@
     flex-direction: column;
     gap: 1rem;
 }
-.contentInfoContact{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 .tittleContact{
     font-size: 2rem;
     margin: 0;
 }
 .infoContact {
-    padding-left: 19%;
     font-size: 1.2em;
     gap: 0.7rem;
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: auto;
 }
 .infoContact img{
     height: 50px;
@@ -40,8 +34,8 @@
 .contentInfoContact{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 6rem;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .linkContact{
@@ -52,10 +46,32 @@
     background-color: #f5f5f5;
     border: 2px #3f558d solid;
     border-radius: 7px;
-    border: ;    gap: 1rem;
+    gap: 1rem;
     font-size: 1.1em;
 }
 .linkContact p{
     margin: 0;
+    font-size: 1rem;
+}
+
+@media (max-width: 880px){ 
+    .content{
+        width: 90%;
+    }
+}
+@media (max-width: 680px){ 
+    .content{
+        width: 95%;
+    }
+}
+@media (max-width: 510px){ 
+    .infoContact img{
+        height: 37px;
+        width: 37px;
+    }
+    .linkContact p{
+        margin: 0;
+        font-size: .9rem ;
+    }
 }
 
