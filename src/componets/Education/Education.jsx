@@ -6,7 +6,7 @@ export const Education = () => {
     <section  id="education" className={style.wrapper}>
       <div className={style.content}>
         <div className={style.contentEducation}>
-          <h2 className={style.tittleEducation}>Educacíon</h2>
+          <h2 className={style.tittleEducation}>Educación</h2>
           <EducationCard/>
         </div>
       </div>

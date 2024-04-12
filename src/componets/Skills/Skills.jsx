@@ -14,15 +14,15 @@ export const Skills = () => {
         <div className={style.mainHero}>
           <div className={style.skillsHero}>
             <h2 className={style.tittleSkills} id="skills">
-              Tecnologias
+              Tecnologías
             </h2>
             <span className={style.spanSkills}>
-              <li><img className={style.imgSkills} src={HTML} alt="" /></li>
-              <li><img className={style.imgSkills} src={CSS} alt="" /></li>
-              <li><img className={style.imgSkills} src={JAVASCRIPT} alt="" /></li>
-              <li><img className={style.iconMini } src={BOOTSTRAP} alt="" /></li>
-              <li><img className={style.iconMini } src={GIT} alt="" /></li>
-              <li><img className={style.imgSkills} src={REACT} alt="" /></li>
+              <li><img className={style.imgSkills} src={HTML} alt="Icono de HTML." /></li>
+              <li><img className={style.imgSkills} src={CSS} alt="Icono de CSS" /></li>
+              <li><img className={style.imgSkills} src={JAVASCRIPT} alt="Icono de JAVASCRIPT" /></li>
+              <li><img className={style.iconMini } src={BOOTSTRAP} alt="Icono de BOOTSTRAP" /></li>
+              <li><img className={style.iconMini } src={GIT} alt="Icono de GIT" /></li>
+              <li><img className={style.imgSkills} src={REACT} alt="Icono de REACT" /></li>
             </span>
           </div>
         </div>
