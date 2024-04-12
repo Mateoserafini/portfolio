@@ -10,8 +10,8 @@ export const Contact = () => {
                 <div className={style.containerInfoContact}>
                     <h2 className={style.tittleContact}>Contacto</h2>
                     <div className={style.infoContact}>
-                        <p>Mi informacion de contacto por aqui.</p>
-                        <img src={HAND} alt="" />
+                        <p>Mi información de contacto por aquí.</p>
+                        <img src={HAND} alt="Icono de mano apuntando hacia abajo." />
                     </div>
                 </div>
                 <span className={style.contentInfoContact}>

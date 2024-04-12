@@ -12,7 +12,7 @@
 .mainHero{
   display: flex;
   flex-direction: column;
-  gap: 2.2rem;
+  gap: 1.7rem;
 }
 img {
     width: 6rem;
@@ -58,7 +58,6 @@ img {
     gap: 1rem;
 }
 .heroTittle{
-    display: flex;
     font-size: 4rem;
     margin: 0;
 }

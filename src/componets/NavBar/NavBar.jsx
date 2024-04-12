@@ -43,16 +43,16 @@ export const NavBar = () => {
         <div id="mobile-menu" className={style.contentMobileNavBar}>
           <div className={style.mobileNavBar}>
             <li className={style.liNavBarMovile}onClick={closeNav} >
-              <a href="#skills">Tecnologias</a>
+              <a href="#skills">Tecnologías</a>
             </li>
             <li className={style.liNavBarMovile}onClick={closeNav} >
-              <a href="#education">Educacíon</a>
+              <a href="#education">Educación</a>
             </li>
             <li className={style.liNavBarMovile} onClick={closeNav} >
               <a href="#projects">Proyectos</a>
             </li>
             <li className={style.liNavBarMovile} onClick={closeNav} >
-              <a href="#contact">Contact</a>
+              <a href="#contact">Contacto</a>
             </li>
             <li className={style.liNavBarMovile} onClick={closeNav} >
               <a>
