@@ -46,7 +46,7 @@
     background-color: #f5f5f5;
     border: 2px #3f558d solid;
     border-radius: 7px;
-    gap: 1rem;
+    gap: .5rem;
     font-size: 1.1em;
 }
 .linkContact p{
@@ -72,6 +72,19 @@
     .linkContact p{
         margin: 0;
         font-size: .9rem ;
+    }
+}
+
+@media (max-width: 425px){ 
+    .linkContact svg{
+        height: 20px;
+        width: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    .linkContact p{
+        margin: 0;
+        font-size: .8rem ;
     }
 }
 
